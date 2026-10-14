@@ -1,0 +1,1 @@
+export const Comunidades = () => <div className="container py-5"><h2>Comunidades</h2></div>;

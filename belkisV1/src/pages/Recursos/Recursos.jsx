@@ -1,0 +1,1 @@
+export const Recursos = () => <div className="container py-5"><h2>Recursos</h2></div>;

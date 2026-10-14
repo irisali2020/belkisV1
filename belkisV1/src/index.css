@@ -1,0 +1,227 @@
+/* ========================================================
+   SISTEMA DE DISEÑO - BELKIS | PSICOLOGÍA & HACER COMUNIDAD
+   Paleta con prevalencia del Rosa y estética empática / humana
+   ======================================================== */
+
+:root {
+  /* Paleta Rosa & Cálida */
+  --rose-primary: #d94f70;
+  --rose-primary-hover: #c13b5d;
+  --rose-dark: #9c2548;
+  --rose-deeper: #731631;
+  --rose-soft: #fde8ee;
+  --rose-subtle: #fff1f4;
+  --rose-border: #f8c9d6;
+  --rose-glow: rgba(217, 79, 112, 0.2);
+
+  /* Tonos neutros cálidos */
+  --bg-main: #fffcfd;
+  --bg-card: #ffffff;
+  --text-dark: #2c2024;
+  --text-body: #4f3f45;
+  --text-muted: #78666d;
+  --border-light: #f3e6ea;
+
+  /* Tipografías */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-main);
+  color: var(--text-body);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+h1, h2, h3, h4, .font-heading {
+  color: var(--text-dark);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* ==========================================
+   UTILIDADES DE COLOR Y BOTONES ROSA
+   ========================================== */
+
+.text-rose {
+  color: var(--rose-primary) !important;
+}
+
+.text-rose-dark {
+  color: var(--rose-dark) !important;
+}
+
+.bg-rose {
+  background-color: var(--rose-primary) !important;
+  color: #ffffff !important;
+}
+
+.bg-rose-subtle {
+  background-color: var(--rose-subtle) !important;
+}
+
+.bg-rose-soft {
+  background-color: var(--rose-soft) !important;
+}
+
+.border-rose {
+  border-color: var(--rose-border) !important;
+}
+
+/* Gradientes suaves */
+.bg-rose-gradient {
+  background: linear-gradient(135deg, #fff2f5 0%, #fde8ee 50%, #fff7f9 100%);
+}
+
+.bg-rose-gradient-hero {
+  background: linear-gradient(180deg, #fff5f8 0%, #ffffff 100%);
+}
+
+/* Botones con estilo Rosa */
+.btn-rose {
+  background-color: var(--rose-primary);
+  color: #ffffff;
+  border: 1px solid var(--rose-primary);
+  font-weight: 600;
+  padding: 0.65rem 1.4rem;
+  border-radius: 50rem;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 4px 14px rgba(217, 79, 112, 0.25);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.btn-rose:hover, .btn-rose:focus {
+  background-color: var(--rose-primary-hover);
+  border-color: var(--rose-primary-hover);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(217, 79, 112, 0.35);
+}
+
+.btn-outline-rose {
+  background-color: transparent;
+  color: var(--rose-primary);
+  border: 2px solid var(--rose-primary);
+  font-weight: 600;
+  padding: 0.6rem 1.35rem;
+  border-radius: 50rem;
+  transition: all 0.25s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.btn-outline-rose:hover, .btn-outline-rose:focus {
+  background-color: var(--rose-primary);
+  color: #ffffff;
+  border-color: var(--rose-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(217, 79, 112, 0.2);
+}
+
+.btn-rose-subtle {
+  background-color: var(--rose-soft);
+  color: var(--rose-dark);
+  border: 1px solid var(--rose-border);
+  font-weight: 600;
+  padding: 0.55rem 1.2rem;
+  border-radius: 50rem;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.btn-rose-subtle:hover {
+  background-color: var(--rose-primary);
+  color: #ffffff;
+  border-color: var(--rose-primary);
+}
+
+/* Badges con tono rosa */
+.badge-rose {
+  background-color: var(--rose-soft);
+  color: var(--rose-dark);
+  font-weight: 600;
+  padding: 0.4rem 0.85rem;
+  border-radius: 50rem;
+  border: 1px solid var(--rose-border);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+/* Tarjetas y sombras suaves */
+.card-belkis {
+  background: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: 1.25rem;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  box-shadow: 0 4px 16px rgba(115, 22, 49, 0.04);
+}
+
+.card-belkis:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(217, 79, 112, 0.12);
+  border-color: var(--rose-border);
+}
+
+/* Pastillas de navegación activas */
+.nav-link-custom {
+  color: var(--text-body) !important;
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  border-radius: 50rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.nav-link-custom:hover {
+  color: var(--rose-primary) !important;
+  background-color: var(--rose-subtle);
+}
+
+.nav-link-custom.active {
+  color: var(--rose-primary) !important;
+  background-color: var(--rose-soft);
+  font-weight: 700;
+}
+
+/* Contenedores con borde sutil */
+.quote-box {
+  border-left: 4px solid var(--rose-primary);
+  padding: 1.25rem 1.5rem;
+  background-color: var(--rose-subtle);
+  border-radius: 0 1rem 1rem 0;
+}
