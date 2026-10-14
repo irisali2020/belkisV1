@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-belkis",
+  "version": "1.0.0",
+  "description": "Proyecto Belkis - Plataforma de Psicología y Hacer Comunidad basada en las etapas de formación grupal",
+  "scripts": {
+    "dev:client": "npm --prefix belkisV1 run dev",
+    "build:client": "npm --prefix belkisV1 run build",
+    "dev:server": "npm --prefix server run dev",
+    "start:server": "npm --prefix server start"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "firebase",
+    "psicologia",
+    "comunidad",
+    "bootstrap"
+  ],
+  "author": "Belkis",
+  "license": "ISC"
+}
