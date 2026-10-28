@@ -18,8 +18,9 @@ export const CycleStages = () => {
             Las 4 etapas del ciclo de vida grupal
           </h2>
           <p className="text-muted mx-auto" style={{ maxWidth: '640px', fontSize: '1.1rem' }}>
-            Cada etapa de un colectivo requiere un tipo diferente de presencia, escucha, acuerdos y dinámicas. 
-            Identificar en qué momento se encuentra tu grupo te permite acompañarlo sin forzar los tiempos.
+            Un grupo es un conjunto de individuos cuyas relaciones mutuas los hacen interdependientes en algún grado significativo.
+            ¿Cuándo pasamos de un grupo a una comunidad?
+            
           </p>
         </div>
 

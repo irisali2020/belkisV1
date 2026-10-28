@@ -12,11 +12,12 @@ export const Environments = () => {
             Ámbitos de Aplicación
           </span>
           <h2 className="display-6 fw-bold text-dark mt-2 mb-3">
-            Espacios donde cobra vida la metodología
+            Espacios donde cobra vida la metodología:
+            empresa, colegio, parroquia, familia, actividad recreativa:
           </h2>
-          <p className="text-muted mx-auto" style={{ maxWidth: '640px' }}>
-            Diseñado para aplicarse en cualquier contexto donde las personas se unan por un propósito compartido, 
-            desde startups y ONGs hasta colectivos artísticos y comunidades vecinales.
+          <p className="text-muted mx-auto" style={{ maxWidth: '640px' }}>            
+            ¿formas parte de un grupo? O ¿formas parte de una comunidad?
+
           </p>
         </div>
 

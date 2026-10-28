@@ -15,7 +15,7 @@ export const HomeCtaBanner = () => {
         style={{
           width: '400px',
           height: '400px',
-          background: '#ffffff',
+          background: '#851010',
           top: '-100px',
           right: '-100px',
         }}
@@ -33,8 +33,7 @@ export const HomeCtaBanner = () => {
           </h2>
           
           <p className="lead opacity-90 mx-auto mb-4" style={{ fontSize: '1.15rem', lineHeight: '1.7' }}>
-            No tienes que sostenerlo en soledad. Te ayudamos a diseñar la facilitación adecuada 
-            o a acompañar el momento de transición que están atravesando.
+            Esto es para quienes, desde esta perspectiva, deseen favorecer la construcción y desarrollo de comunidades. Trabajamos acompañando a las comunidades en su proceso de desarrollo.
           </p>
 
           <div className="d-flex flex-wrap justify-content-center gap-3">

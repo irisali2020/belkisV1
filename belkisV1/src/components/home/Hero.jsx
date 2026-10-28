@@ -38,7 +38,7 @@ export const Hero = () => {
             </div>
 
             <h1 className="display-4 fw-bold text-dark mb-3 lh-sm" style={{ letterSpacing: '-0.03em' }}>
-              Hacer comunidad es un <span className="text-rose font-serif fst-italic">proceso vivo</span>, no una casualidad.
+              No todo grupo es una comunidad pero, <span className="text-rose font-serif fst-italic"> toda comunidad en algún momento pasa por la configuración de un grupo.</span>
             </h1>
 
             <p className="lead text-muted mb-4" style={{ fontSize: '1.2rem', lineHeight: '1.7' }}>

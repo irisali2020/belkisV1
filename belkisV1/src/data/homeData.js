@@ -52,30 +52,30 @@ export const cycleStages = [
 export const environments = [
   {
     id: 'equipos',
-    title: 'Equipos de Trabajo y Proyectos',
+    title: 'Empresa',
     description: 'Alineación de objetivos, cultura de seguridad psicológica y prevención del agotamiento laboral.',
     icon: 'bi-briefcase',
     badge: 'Organizaciones'
   },
   {
     id: 'aprendizaje',
-    title: 'Comunidades de Práctica',
+    title: 'Colegio',
     description: 'Grupos de estudio, mentoría, círculos terapéuticos y colectivos que comparten saberes.',
     icon: 'bi-mortarboard',
     badge: 'Aprendizaje'
   },
   {
     id: 'comunitario',
-    title: 'Entornos Vecinales y Sociales',
-    description: 'Comités vecinales, asociaciones civiles y redes comunitarias de apoyo mutuo.',
+    title: 'Parroquia',
+    description: 'Grupos pastorales.',
     icon: 'bi-people',
-    badge: 'Territorial'
+    badge: 'Religiosidad'
   },
   {
     id: 'creativos',
-    title: 'Colectivos y Proyectos Libres',
-    description: 'Iniciativas autogestionadas, redes artísticas y movimientos con propósito compartido.',
+    title: 'Familia',
+    description: 'Cotidianidad, responsabilidad compartida.',
     icon: 'bi-palette',
-    badge: 'Autogestión'
+    badge: 'Formación'
   },
 ];
